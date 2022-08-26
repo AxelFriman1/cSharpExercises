@@ -1,0 +1,13 @@
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.exe
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.deps.json
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.runtimeconfig.json
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.runtimeconfig.dev.json
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.dll
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\bin\Debug\netcoreapp3.1\Repetitionsövningar.pdb
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.csprojAssemblyReference.cache
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.csproj.CoreCompileInputs.cache
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.AssemblyInfoInputs.cache
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.AssemblyInfo.cs
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.dll
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.pdb
+C:\Users\axel.friman\source\repos\Repetitionsövningar\Repetitionsövningar\obj\Debug\netcoreapp3.1\Repetitionsövningar.genruntimeconfig.cache
