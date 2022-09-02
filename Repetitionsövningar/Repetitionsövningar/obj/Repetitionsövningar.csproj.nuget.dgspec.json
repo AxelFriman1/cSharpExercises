@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\axel.friman\\source\\repos\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj": {}
+    "C:\\Users\\axel.friman\\Desktop\\cSharpExercises\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\axel.friman\\source\\repos\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj": {
+    "C:\\Users\\axel.friman\\Desktop\\cSharpExercises\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axel.friman\\source\\repos\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj",
+        "projectUniqueName": "C:\\Users\\axel.friman\\Desktop\\cSharpExercises\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj",
         "projectName": "Repetitionsövningar",
-        "projectPath": "C:\\Users\\axel.friman\\source\\repos\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj",
+        "projectPath": "C:\\Users\\axel.friman\\Desktop\\cSharpExercises\\Repetitionsövningar\\Repetitionsövningar\\Repetitionsövningar.csproj",
         "packagesPath": "C:\\Users\\axel.friman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axel.friman\\source\\repos\\Repetitionsövningar\\Repetitionsövningar\\obj\\",
+        "outputPath": "C:\\Users\\axel.friman\\Desktop\\cSharpExercises\\Repetitionsövningar\\Repetitionsövningar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\axel.friman\\AppData\\Roaming\\NuGet\\NuGet.Config",

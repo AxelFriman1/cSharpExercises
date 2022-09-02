@@ -89,12 +89,136 @@ namespace Repetitionsövningar
                 }
                 else if(uppgift == 12)
                 {
-                    Console.WriteLine("Ge mig ett nummer så skriver jag ut det");
+                    Console.WriteLine("Ge mig ett heltal så skriver jag ut det");
+                    int användarTal = Int32.Parse(Console.ReadLine());
+                    Console.WriteLine($"Ditt tal är {användarTal}!");
+                }
+                else if(uppgift == 13)
+                {
+                    Console.WriteLine("Ge mig ett decimaltal så skriver jag ut det");
+                    double användarTal = Double.Parse(Console.ReadLine());
+                    Console.WriteLine($"Ditt tal är {användarTal}!");
+                }
+                else if(uppgift == 14)
+                {
+                    Console.WriteLine("Ge mig en boolean, true eller false?");
+                    bool användarBoolean = Boolean.Parse(Console.ReadLine());
+                    Console.WriteLine($"Det är {användarBoolean}!");
+                }
+                else if(uppgift == 15)
+                {
+                    Console.WriteLine("Ge mig en text!");
+                    string användarText = Console.ReadLine();
+                    Console.WriteLine("Ge mig ett heltal!");
+                    int användarTal = Int32.Parse(Console.ReadLine());
+                    Console.WriteLine("Ge mig ett decimaltal!");
+                    double användarDecimal = Double.Parse(Console.ReadLine());
+                    Console.WriteLine("Ge mig en boolean, true eller false?");
+                    bool användarBoolean = Boolean.Parse(Console.ReadLine());
+                    Console.WriteLine($"Din text är: {användarText}");
+                    Console.WriteLine($"Ditt heltal är: {användarTal}");
+                    Console.WriteLine($"Ditt decimaltal är: {användarDecimal}");
+                    Console.WriteLine($"Din boolean är: {användarBoolean}");
+                }
+                else if(uppgift == 16)
+                {
+                    Console.WriteLine("Mata in ett visst antal dagar så gör jag om det till sekunder!");
+                    int antalDagar = Int32.Parse(Console.ReadLine());
+                    int dagarTillSekund = antalDagar * 24 * 3600;
+                    Console.WriteLine($"{antalDagar} dagar är {dagarTillSekund} sekunder!");
+                }
+                else if(uppgift == 17)
+                {
+                    Console.WriteLine("Ge mig två stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    int summa = heltal1 + heltal2;
+                    Console.WriteLine($"Summan av dina två heltal är {summa}");
+                }
+                else if(uppgift == 18)
+                {
+                    Console.WriteLine("Ge mig tre stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    int heltal3 = Int32.Parse(Console.ReadLine());
+                    int summa = heltal1 + heltal2 + heltal3;
+                    Console.WriteLine($"Summan av dina tre heltal är {summa}");
+                }
+                else if(uppgift == 19)
+                {
+                    Console.WriteLine("Ge mig två stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    int summa = heltal1 + heltal2;
+                    Console.WriteLine($"{heltal1} + {heltal2} = {summa}");
+                }
+                else if(uppgift == 20)
+                {
+                    Console.WriteLine("Ge mig två stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    int summa = heltal1 * heltal2;
+                    Console.WriteLine($"{heltal1} * {heltal2} = {summa}");
+                }
+                else if(uppgift == 21)
+                {
+                    Console.WriteLine("Ge mig två stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    double summa = heltal1 + heltal2;
+                    double medelvärde1 = summa / 2;
+                    Console.WriteLine($"Medelvärdet av dina tal är {medelvärde1}");
+                }
+                else if(uppgift == 22)
+                {
+                    Console.WriteLine("Ge mig tre stycken heltal!");
+                    int heltal1 = Int32.Parse(Console.ReadLine());
+                    int heltal2 = Int32.Parse(Console.ReadLine());
+                    int heltal3 = Int32.Parse(Console.ReadLine());
+                    double summa = heltal1 + heltal2 + heltal3;
+                    double medelvärde1 = summa / 3;
+                    Console.WriteLine($"Medelvärdet av dina tal är {medelvärde1}");
+                }
+                else if(uppgift == 23)
+                {
+                    Console.WriteLine("Ge mig ditt första tal!");
+                    double tal1 = Double.Parse(Console.ReadLine());
+                    Console.WriteLine("Ge mig ditt andra tal!");
+                    double tal2 = Double.Parse(Console.ReadLine());
+                    double summa = tal1 + tal2;
+                    double summa2 = tal1 - tal2;
+                    double produkt = tal1 * tal2;
+                    double kvot = tal1 / tal2;
+                    Console.WriteLine($"{tal1} + {tal2} = {summa}");
+                    Console.WriteLine($"{tal1} - {tal2} = {summa2}");
+                    Console.WriteLine($"{tal1} * {tal2} = {produkt}");
+                    Console.WriteLine($"{tal1} / {tal2} = {kvot}");
+                }
+                else if(uppgift == 24)
+                {
+                    Console.WriteLine("Hur snabbt kör du?");
+                    int userSpeed = Int32.Parse(Console.ReadLine());
+                    if(userSpeed > 120)
+                    {
+                        Console.WriteLine("Speeding!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Du kör lagligt");
+                    }
+                }
+                else if(uppgift == 25)
+                {
+                    Console.WriteLine("Ge mig ett heltal");
+                    
                 }
 
                 Console.WriteLine("Vill du se en ny uppgift?");
                 villSpela = Console.ReadLine().ToLower();
             }
+            Console.WriteLine("Hejdå");
         }
+
+        
     }
 }
