@@ -210,7 +210,146 @@ namespace Repetitionsövningar
                 else if(uppgift == 25)
                 {
                     Console.WriteLine("Ge mig ett heltal");
-                    
+                    int heltal = Int32.Parse(Console.ReadLine());
+                    if(heltal == 1984)
+                    {
+                        Console.WriteLine("Orwell");
+                    }
+                }
+                else if(uppgift == 26)
+                {
+                    Console.WriteLine("Skriv ett årtal");
+                    int årtal = Int32.Parse(Console.ReadLine());
+                    if(årtal < 1900)
+                    {
+                        Console.WriteLine("Du är gammal");
+                    }
+                }
+                else if(uppgift == 27)
+                {
+                    Console.WriteLine("Ge mig ett positivt eller negativt tal");
+                    int tal = Int32.Parse(Console.ReadLine());
+                    if(tal > 0)
+                    {
+                        Console.WriteLine("Ditt tal är positivt");
+                    }
+                    else if(tal < 0)
+                    {
+                        Console.WriteLine("Ditt tal är negativt");
+                    }
+                }
+                else if(uppgift == 28)
+                {
+                    Console.WriteLine("Hur gammal är du?");
+                    int ålder = Int32.Parse(Console.ReadLine());
+                    if(ålder < 18)
+                    {
+                        Console.WriteLine("Du är inte vuxen");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Du är vuxen");
+                    }
+                }
+                else if(uppgift == 29)
+                {
+                    Console.WriteLine("Ge mig två tal");
+                    int tal1 = Int32.Parse(Console.ReadLine());
+                    int tal2 = Int32.Parse(Console.ReadLine());
+                    if(tal1 > tal2)
+                    {
+                        Console.WriteLine($"Det största talet är {tal1}!");
+                    }
+                    else if(tal2 > tal1)
+                    {
+                        Console.WriteLine($"Det största talet är {tal2}!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Talen är lika stora");
+                    }
+                }
+                else if(uppgift == 30)
+                {
+                    Console.WriteLine("Vad för procent har du i din kurs? (0 - 100)");
+                    int procent = Int32.Parse(Console.ReadLine());
+                    if(procent < 0)
+                    {
+                        Console.WriteLine("Omöjligt");
+                    }
+                    else if(procent <= 49)
+                    {
+                        Console.WriteLine("Du klarade inte kursen");
+                    }
+                    else if(procent <= 59)
+                    {
+                        Console.WriteLine("Du får: 1");
+                    }
+                    else if (procent <= 69)
+                    {
+                        Console.WriteLine("Du får: 2");
+                    }
+                    else if (procent <= 79)
+                    {
+                        Console.WriteLine("Du får: 3");
+                    }
+                    else if (procent <= 89)
+                    {
+                        Console.WriteLine("Du får: 4");
+                    }
+                    else if (procent <= 100)
+                    {
+                        Console.WriteLine("Du får: 5");
+                    }
+                }
+                else if(uppgift == 31)
+                {
+                    Console.WriteLine("Ge mig ett nummer så ska jag kolla om det är jämt eller inte");
+                    int tal = Int32.Parse(Console.ReadLine());
+                    if(tal%2 == 0)
+                    {
+                        Console.WriteLine("Ditt tal är jämt!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ditt tal är ojämt!");
+                    }
+                }
+                else if(uppgift == 32)
+                {
+                    Console.WriteLine("Ge mig en sträng");
+                    string svar = Console.ReadLine();
+                    if(svar == "Mellon")
+                    {
+                        Console.WriteLine("Welcome, friend");
+                    }
+                    else
+                    {
+                        Console.WriteLine("They've got a cave troll");
+                    }
+                }
+                else if(uppgift == 33)
+                {
+                    Console.WriteLine("Ge mig två strängar");
+                    string svar1 = Console.ReadLine();
+                    string svar2 = Console.ReadLine();
+                    if(svar1 == svar2)
+                    {
+                        Console.WriteLine("Echo");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nej");
+                    }
+                }
+                else if(uppgift == 34)
+                {
+                    string fortsätta = "ja";
+                    while(fortsätta == "ja")
+                    {
+                        Console.WriteLine("Hej, vill du fortsätta?");
+                        fortsätta = Console.ReadLine().ToLower();
+                    }
                 }
 
                 Console.WriteLine("Vill du se en ny uppgift?");
