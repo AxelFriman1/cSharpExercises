@@ -351,6 +351,165 @@ namespace Repetitionsövningar
                         fortsätta = Console.ReadLine().ToLower();
                     }
                 }
+                else if(uppgift == 35)
+                {
+                    Console.WriteLine("Ge mig ett tal mellan 40 - 50 tills du hittar det rätta talet");
+                    int tal = 50;
+                    while(tal != 42)
+                    {
+                        Console.WriteLine("Vad vill du gissa på?");
+                        tal = Int32.Parse(Console.ReadLine());
+                        if(tal != 42)
+                        {
+                            Console.WriteLine("Du gissade fel");
+                        }
+                    }
+                    Console.WriteLine("Grattis du hittade rätt tal :D");
+                }
+                else if(uppgift == 36)
+                {
+                    Console.WriteLine("Ge mig ett tal");
+                    int tal = Int32.Parse(Console.ReadLine());
+                    if(tal > 0)
+                    {
+                        Console.WriteLine(tal * tal);
+                    }
+                    else if(tal == 0)
+                    {
+                        Environment.Exit(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Talet är negativt");
+                    }
+                }
+                else if(uppgift == 37)
+                {
+                    int tal = 1;
+                    int antalTal = 0;
+                    while(tal != 0)
+                    {
+                        Console.WriteLine("Ge mig ett heltal");
+                        tal = Int32.Parse(Console.ReadLine());
+                        if(tal != 0)
+                        {
+                            antalTal += 1;
+                        }
+                    }
+                    Console.WriteLine($"Såhär många tal gav du mig: {antalTal}");
+                }
+                else if(uppgift == 38)
+                {
+                    int tal = 1;
+                    int antalTal = 0;
+                    while (tal != 0)
+                    {
+                        Console.WriteLine("Ge mig ett heltal");
+                        tal = Int32.Parse(Console.ReadLine());
+                        if (tal < 0)
+                        {
+                            antalTal += 1;
+                        }
+                    }
+                    Console.WriteLine($"Såhär många negativa tal gav du mig: {antalTal}");
+                }
+                else if(uppgift == 39)
+                {
+                    int tal = 1;
+                    int summaTal = 0;
+                    while (tal != 0)
+                    {
+                        Console.WriteLine("Ge mig ett heltal");
+                        tal = Int32.Parse(Console.ReadLine());
+                        if (tal != 0)
+                        {
+                            summaTal += tal;
+                        }
+                    }
+                    Console.WriteLine($"Summan av dina tal: {summaTal}");
+                }
+                else if(uppgift == 40)
+                {
+                    int tal = 1;
+                    int summaTal = 0;
+                    int antalTal = 0;
+                    while (tal != 0)
+                    {
+                        Console.WriteLine("Ge mig ett heltal");
+                        tal = Int32.Parse(Console.ReadLine());
+                        if (tal != 0)
+                        {
+                            summaTal += tal;
+                            antalTal += 1;
+                        }
+                    }
+                    Console.WriteLine($"Summan av dina tal är {summaTal}");
+                    Console.WriteLine($"Antalet tal du angav är {antalTal} stycken");
+                }
+                else if(uppgift == 41)
+                {
+                    Console.WriteLine("Ge mig två heltal");
+                    int tal1 = Int32.Parse(Console.ReadLine());
+                    int tal2 = Int32.Parse(Console.ReadLine());
+                    if(tal1 == tal2)
+                    {
+                        int summa = tal1 * 8;
+                        Console.WriteLine($"Dina tal är samma och summan av dem blir fyrdubblade: {summa}");
+                    }
+                    else
+                    {
+                        int summa = tal1 + tal2;
+                        Console.WriteLine($"Summan av dina tal är: {summa}");
+                    }
+                }
+                else if(uppgift == 42)
+                {
+                    int tal = 63;
+                    Console.WriteLine("Ge mig ett värde på variabeln n");
+                    int n = Int32.Parse(Console.ReadLine());
+                    if (tal >= n)
+                    {
+                        int skillnad = tal - n;
+                        Console.WriteLine($"Skillnaden mellan talet {tal} och {n} är {skillnad}");
+                    }
+                    else
+                    {
+                        int skillnad = (n - tal) * 2;
+                        Console.WriteLine($"{n} är större än {tal} så skillnaden blir dubblad, skillnaden är: {skillnad}");
+                    }
+                }
+                else if(uppgift == 43)
+                {
+                    Console.WriteLine("Ge mig två heltal");
+                    bool tal23 = false;
+                    int tal1 = Int32.Parse(Console.ReadLine());
+                    int tal2 = Int32.Parse(Console.ReadLine());
+                    int summa = tal1 + tal2;
+                    if(tal1 == 23 || tal2 == 23 || summa == 23)
+                    {
+                        tal23 = true;
+                    }
+                    Console.WriteLine(tal23);
+                }
+                else if(uppgift == 44)
+                {
+                    Console.WriteLine("Ge mig ett heltal");
+                    int tal = Int32.Parse(Console.ReadLine());
+                    bool endsWithZero = false;
+                    if(tal%10 == 0)
+                    {
+                        endsWithZero = true;
+                    }
+                    Console.WriteLine($"Slutar {tal} med 0: {endsWithZero}");
+                }
+                else if(uppgift == 45)
+                {
+                    Console.WriteLine("Ge mig en sträng");
+                    string användarSträng = Console.ReadLine();
+                    
+                    string ifSträng = "if " + användarSträng;
+                    Console.WriteLine(ifSträng);
+                }
 
                 Console.WriteLine("Vill du se en ny uppgift?");
                 villSpela = Console.ReadLine().ToLower();
